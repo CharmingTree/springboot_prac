@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Bean;
 
 
 @MyAutoConfigration
-@ConditionalMyOnClass("org.springframework.boot.web.embedded.undertow")
+@ConditionalMyOnClass("org.springframework.boot.web.embedded.undertow.UndertowWebServer")
 public class UnderTowWebServerConfig {
 
     @Bean("underTowWebServerFactory")
-    @ConditionalOnMissingBean
+    //@ConditionalOnMissingBean
     public ServletWebServerFactory servletWebServerFactory() {
         UndertowServletWebServerFactory factory = new UndertowServletWebServerFactory();
         factory.setPort(8776);

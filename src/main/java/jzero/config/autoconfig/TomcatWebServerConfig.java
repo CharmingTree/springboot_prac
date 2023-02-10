@@ -10,10 +10,11 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 import org.springframework.util.ClassUtils;
 
 @MyAutoConfigration
-@ConditionalMyOnClass("org.apache.catalina.startup.Tomcat")
+@ConditionalMyOnClass("")
+//@ConditionalMyOnClass("org.apache.catalina.startup.Tomcat")
 public class TomcatWebServerConfig {
     @Bean("tomcatWebServerFactory")
-    @ConditionalOnMissingBean
+    //@ConditionalOnMissingBean
     public ServletWebServerFactory servletWebServerFactory() {
         TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory();
         factory.setPort(8776);
