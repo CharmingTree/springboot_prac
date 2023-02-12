@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.9-SNAPSHOT'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+
 }
 
 group = 'jzero'
@@ -18,7 +19,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-jetty'
 	implementation 'org.springframework.boot:spring-boot-starter-undertow'
+
+	implementation 'org.projectlombok:lombok'
+	implementation('org.slf4j:jcl-over-slf4j')
+	implementation('ch.qos.logback:logback-classic')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {

@@ -13,13 +13,16 @@ import org.springframework.context.annotation.Conditional;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 import org.springframework.util.ClassUtils;
 
+
 @MyAutoConfigration
-//@ConditionalMyOnClass("org.eclipse.jetty.server.Server")
-@ConditionalMyOnClass("")
+@ConditionalMyOnClass("org.eclipse.jetty.server.Server")
+//@ConditionalMyOnClass("")
 public class JettyWebServerConfig {
+
     @Bean("jettyWebServerFactory")
-    //@ConditionalOnMissingBean
+    @ConditionalOnMissingBean
     public ServletWebServerFactory servletWebServerFactory() {
+
 
         JettyServletWebServerFactory jettyServletWebServerFactory = new JettyServletWebServerFactory();
         jettyServletWebServerFactory.setPort(8776);

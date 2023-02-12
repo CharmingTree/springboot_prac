@@ -1,4 +1,5 @@
+jzero.config.autoconfig.PropertyPlaceHolderConfig
 jzero.config.autoconfig.DispatcherServletConfig
+jzero.config.autoconfig.UnderTowWebServerConfig
 jzero.config.autoconfig.TomcatWebServerConfig
 jzero.config.autoconfig.JettyWebServerConfig
-jzero.config.autoconfig.UnderTowWebServerConfig

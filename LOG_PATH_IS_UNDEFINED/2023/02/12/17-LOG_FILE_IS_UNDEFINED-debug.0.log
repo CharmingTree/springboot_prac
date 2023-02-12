@@ -1,0 +1,105 @@
+2023-02-12 17:23:42.437  INFO 14136 --- [main] jzero.helloboot.HellobootApplication     : Starting HellobootApplication using Java 1.8.0_301 on DESKTOP-8T9NKNK with PID 14136 (C:\workspace_intellj\springboot_prac\build\classes\java\main started by KJY in C:\workspace_intellj\springboot_prac)
+2023-02-12 17:23:42.453 DEBUG 14136 --- [main] jzero.helloboot.HellobootApplication     : Running with Spring Boot v2.7.9-SNAPSHOT, Spring v5.3.25
+2023-02-12 17:23:42.453  INFO 14136 --- [main] jzero.helloboot.HellobootApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-02-12 17:23:42.453 DEBUG 14136 --- [main] o.s.boot.SpringApplication               : Loading source class jzero.helloboot.HellobootApplication
+2023-02-12 17:23:42.500 DEBUG 14136 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@366647c2
+2023-02-12 17:23:42.515 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2023-02-12 17:23:42.546 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2023-02-12 17:23:42.656 DEBUG 14136 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [C:\workspace_intellj\springboot_prac\build\classes\java\main\jzero\helloboot\HelloController.class]
+2023-02-12 17:23:42.656 DEBUG 14136 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [C:\workspace_intellj\springboot_prac\build\classes\java\main\jzero\helloboot\HelloDecorator.class]
+2023-02-12 17:23:42.656 DEBUG 14136 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Ignored because not a concrete top-level class: file [C:\workspace_intellj\springboot_prac\build\classes\java\main\jzero\helloboot\MyComponent.class]
+2023-02-12 17:23:42.656 DEBUG 14136 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [C:\workspace_intellj\springboot_prac\build\classes\java\main\jzero\helloboot\SimpleHelloService.class]
+2023-02-12 17:23:42.812 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2023-02-12 17:23:42.812 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2023-02-12 17:23:42.812 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023-02-12 17:23:42.812 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2023-02-12 17:23:42.828 DEBUG 14136 --- [main] o.s.u.c.s.UiApplicationContextUtils      : Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1458ed9c]
+2023-02-12 17:23:42.828 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'underTowWebServerFactory'
+2023-02-12 17:23:42.828 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jzero.config.autoconfig.UnderTowWebServerConfig'
+2023-02-12 17:23:42.859 DEBUG 14136 --- [main] .b.w.e.u.UndertowServletWebServerFactory : Code archive: C:\Users\KJY\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.7.9-SNAPSHOT\8e5b65adf4c4288837e97aa5db01fb56af1bd738\spring-boot-2.7.9-SNAPSHOT.jar
+2023-02-12 17:23:42.859 DEBUG 14136 --- [main] .b.w.e.u.UndertowServletWebServerFactory : Code archive: C:\Users\KJY\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\2.7.9-SNAPSHOT\8e5b65adf4c4288837e97aa5db01fb56af1bd738\spring-boot-2.7.9-SNAPSHOT.jar
+2023-02-12 17:23:42.859 DEBUG 14136 --- [main] .b.w.e.u.UndertowServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2023-02-12 17:23:43.000 DEBUG 14136 --- [main] org.jboss.logging                        : Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-02-12 17:23:43.031 DEBUG 14136 --- [main] io.undertow.session                      : Setting default session timeout to 1800
+2023-02-12 17:23:43.046  INFO 14136 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-02-12 17:23:43.046 DEBUG 14136 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2023-02-12 17:23:43.046  INFO 14136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+2023-02-12 17:23:43.046 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServlet'
+2023-02-12 17:23:43.046 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jzero.config.autoconfig.DispatcherServletConfig'
+2023-02-12 17:23:43.078 DEBUG 14136 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: 
+2023-02-12 17:23:43.078 DEBUG 14136 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2023-02-12 17:23:43.078 DEBUG 14136 --- [main] io.undertow.session                      : Registered session listener io.undertow.servlet.core.SessionListenerBridge@74a6a609
+2023-02-12 17:23:43.109 DEBUG 14136 --- [main] io.undertow.session                      : Setting default session timeout to 1800
+2023-02-12 17:23:43.109 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'hellobootApplication'
+2023-02-12 17:23:43.109 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'helloController'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'helloDecorator'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleHelloService'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'helloDecorator' via constructor to bean named 'simpleHelloService'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'helloController' via constructor to bean named 'helloDecorator'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationRunner'
+2023-02-12 17:23:43.125 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'applicationRunner' via factory method to bean named 'environment'
+2023-02-12 17:23:43.140 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jzero.config.autoconfig.TomcatWebServerConfig'
+2023-02-12 17:23:43.140 DEBUG 14136 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jzero.config.autoconfig.JettyWebServerConfig'
+2023-02-12 17:23:43.156 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147483647
+2023-02-12 17:23:43.156 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'springBootLoggingLifecycle'
+2023-02-12 17:23:43.156 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483646
+2023-02-12 17:23:43.156  INFO 14136 --- [main] io.undertow                              : starting server: Undertow - 2.2.22.Final
+2023-02-12 17:23:43.156  INFO 14136 --- [main] org.xnio                                 : XNIO version 3.8.7.Final
+2023-02-12 17:23:43.171  INFO 14136 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.7.Final
+2023-02-12 17:23:43.236 DEBUG 14136 --- [main] org.xnio                                 : Creating worker:null, pool size:64, max pool size:64, keep alive:60000, io threads:8, stack size:0
+2023-02-12 17:23:43.256  INFO 14136 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-02-12 17:23:43.275 DEBUG 14136 --- [XNIO-1 I/O-2] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-2', selector sun.nio.ch.WindowsSelectorImpl@23391df3
+2023-02-12 17:23:43.275 DEBUG 14136 --- [XNIO-1 I/O-3] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-3', selector sun.nio.ch.WindowsSelectorImpl@1885ff07
+2023-02-12 17:23:43.275 DEBUG 14136 --- [XNIO-1 I/O-5] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-5', selector sun.nio.ch.WindowsSelectorImpl@5c85aa88
+2023-02-12 17:23:43.275 DEBUG 14136 --- [XNIO-1 I/O-4] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-4', selector sun.nio.ch.WindowsSelectorImpl@6118cd67
+2023-02-12 17:23:43.276 DEBUG 14136 --- [XNIO-1 I/O-7] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-7', selector sun.nio.ch.WindowsSelectorImpl@69beb10c
+2023-02-12 17:23:43.275 DEBUG 14136 --- [XNIO-1 I/O-1] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-1', selector sun.nio.ch.WindowsSelectorImpl@26a6ca33
+2023-02-12 17:23:43.276 DEBUG 14136 --- [XNIO-1 I/O-6] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-6', selector sun.nio.ch.WindowsSelectorImpl@3aa0efc1
+2023-02-12 17:23:43.276 DEBUG 14136 --- [XNIO-1 I/O-8] org.xnio.nio                             : Started channel thread 'XNIO-1 I/O-8', selector sun.nio.ch.WindowsSelectorImpl@56278f30
+2023-02-12 17:23:43.276 DEBUG 14136 --- [XNIO-1 Accept] org.xnio.nio                             : Started channel thread 'XNIO-1 Accept', selector sun.nio.ch.WindowsSelectorImpl@59d8801a
+2023-02-12 17:23:43.277 DEBUG 14136 --- [main] io.undertow                              : Configuring listener with protocol HTTP for interface 0.0.0.0 and port 8776
+2023-02-12 17:23:43.313  INFO 14136 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8776 (http)
+2023-02-12 17:23:43.314 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'webServerStartStop'
+2023-02-12 17:23:43.314 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2023-02-12 17:23:43.314 DEBUG 14136 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'webServerGracefulShutdown'
+2023-02-12 17:23:43.318 DEBUG 14136 --- [main] ConditionEvaluationReportLoggingListener : 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   UnderTowWebServerConfig#servletWebServerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   JettyWebServerConfig#servletWebServerFactory:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: all) found beans of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' underTowWebServerFactory (OnBeanCondition)
+
+   TomcatWebServerConfig#servletWebServerFactory:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: all) found beans of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' underTowWebServerFactory (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-02-12 17:23:43.321  INFO 14136 --- [main] jzero.helloboot.HellobootApplication     : Started HellobootApplication in 1.348 seconds (JVM running for 1.782)
